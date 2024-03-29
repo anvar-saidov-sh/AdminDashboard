@@ -5,7 +5,7 @@ import reactsvg from '../assets/react.svg'
 function Navbar() {
   return (
     <>
-      <div className="w-[85%] float-right h-[90px] bg-black flex flex-grow items-center justify-between px-[40px]        rounded-tl-[50px] ">
+      <div className="w-[85%] float-right h-[90px] bg-black flex flex-grow items-center justify-between px-[40px]        rounded-tl-full ">
         <h1 className="text-[30px] text-[#1F192F]">Overview</h1>
         <div className="flex items-center justify-center w-[70%] px-3 ">
           <div className="flex items-center px-[30px]">
