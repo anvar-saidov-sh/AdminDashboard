@@ -17,7 +17,7 @@ function SideBar() {
               <LayoutDashboard className='text-white group-hover:text-[#5041BC]'/> <p className='text-white text-[16px] group-hover:text-[#5041BC]'>Dashboard</p>
           </div>
           <div className='group flex gap-5 items-center hover:bg-white rounded-lg p-2 w-[200px] cursor-pointer'>
-              <File className='text-white group-hover:text-[#5041BC]'/> <p className='text-white text-[16px]  group-hover:text-[#5041BC]'>Claims</p>
+              <File className='text-white group-hover:text-[#5041BC]'/> <p className='text-white text-[16px] group-hover:text-[#5041BC]'>Claims</p>
           </div>
           <div className='group flex gap-5 items-center hover:bg-white rounded-lg p-2 w-[200px] cursor-pointer'>
               <Bookmark className='text-white group-hover:text-[#5041BC]'/> <p className='text-white text-[16px] group-hover:text-[#5041BC]'>Biller Queue</p>
