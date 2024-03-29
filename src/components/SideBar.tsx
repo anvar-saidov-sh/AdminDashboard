@@ -1,4 +1,4 @@
-import { Bookmark, File, LayoutDashboard, StarIcon } from 'lucide-react'
+import { Bookmark, File, HeartPulseIcon, LayoutDashboard, StarIcon } from 'lucide-react'
 import oval from '../assets/Oval.png'
 import ovalb from '../assets/Ovalb.png'
 
@@ -17,6 +17,7 @@ function SideBar() {
           <File/>
           <Bookmark/>
           <StarIcon/>
+          <HeartPulseIcon/>
         </div>
       </div>
     </>
