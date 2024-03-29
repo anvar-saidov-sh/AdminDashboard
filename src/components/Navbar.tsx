@@ -2,6 +2,8 @@ import { Bell, ChevronDown, Search } from "lucide-react"
 
 import reactsvg from '../assets/react.svg'
 
+
+
 function Navbar() {
   return (
     <>
