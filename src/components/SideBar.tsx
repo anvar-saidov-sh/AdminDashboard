@@ -8,8 +8,8 @@ function SideBar() {
       <div className='flex bg-[#5041BC] w-[18%] h-[100vh] items-center fixed flex-col gap-[30px]'>
         <div className='flex relative z-10 w-[100%] justify-center items-center h-[60px]'>
           <h2 className='text-[30px] z-10 font-bold text-white'>VENTES</h2>
-          <img src={oval} alt="" className='absolute left-11 top-4 ' />
-          <img src={ovalb} alt="" className='absolute left-16 top-2' />
+          <img src={oval} alt="" className='select-none absolute left-11 top-4 ' />
+          <img src={ovalb} alt="" className='select-none absolute left-16 top-2' />
         </div>
         <hr className='w-[95%] h-0.5 bg-gray-100 border-0 rounded md:my-10 dark:bg-[#8A7DD0]'/>
         <div className='flex flex-col  items-start gap-3'>
