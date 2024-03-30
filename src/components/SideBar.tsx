@@ -1,6 +1,7 @@
 import { Bookmark, File, HeartPulseIcon, LayoutDashboard, StarIcon } from 'lucide-react'
 import oval from '../assets/Oval.png'
 import ovalb from '../assets/Ovalb.png'
+import rocket from '../assets/rocket.png'
 
 function SideBar() {
   return (
@@ -28,6 +29,9 @@ function SideBar() {
           <div className='group flex gap-5 items-center hover:bg-white rounded-lg p-2 w-[200px] cursor-pointer'>
               <HeartPulseIcon className='text-white group-hover:text-[#5041BC]'/> <p className='text-white text-[16px] group-hover:text-[#5041BC]'>Health</p>
           </div>
+        </div>
+        <div className='w-[180px] h-[200px] bg-slate-200 rounded-3xl flex flex-col'>
+            <img src={rocket} alt="" className=''/>
         </div>
       </div>
     </>
