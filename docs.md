@@ -1,6 +1,8 @@
 
 # The documentation of project
 
+## [Figma Project](https://www.figma.com/file/ebnQE359bu6WYwD5RCECN6/Admin-Dashboard-(Community)?type=design&node-id=1%3A2&mode=design&t=j3ueqwMEXjA3BOsC-1)
+
 ### The project purposes
 
 1. Learning both basic and advanced concepts of TypeScript
