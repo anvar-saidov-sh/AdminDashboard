@@ -12,3 +12,8 @@
    1. Use of Diagrams
    2. Use of Line Chart
    3. Use of Bar Chart
+
+
+
+> [!NOTE]
+> I may not be active in a short period of time to learn Chart JS
