@@ -4,7 +4,7 @@ import {users, amounts } from '../db'
 function Workflow() {
     return (
         <>
-            <div className="w-[82%] float-right bg-white flex flex-col justify-between px-[40px]  overflow-y-auto">
+            <div className="w-[82%] float-right bg-white flex flex-col justify-between px-[40px]  overflow-y-auto gap-6">
                 <h2 className="text-[20px] text-[#04103B] ">Top Sales Representative</h2>
                 <div className="w-full p-2 flex flex-col items-center gap-3">
                     {
@@ -21,7 +21,11 @@ function Workflow() {
                         ))
                     }
                 </div>
-                
+                <div className='w-full flex flex-wrap justify-between px-5 py-4'>
+                    <div>Chart 1</div>
+                    <div>Chart 3</div>
+                    <div>Chart 2</div>
+                </div>
             </div>
         </>
     )
