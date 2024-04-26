@@ -1,13 +1,28 @@
 
+export const userss = {
+    name: [
+        "Nicolas Patrick",
+        "Cordell Edwards",
+        "Derrick Spencer",
+        "Larissa Burton"
+    ],
+    amounts: [
+        1500,
+        1600,
+        1700,
+        1800,
+        199
+    ]
+}
+
 export const users = [
     "Nicolas Patrick",
     "Cordell Edwards",
     "Derrick Spencer",
     "Larissa Burton"
 ]
-
 export const amounts = [
-    1500, 
+    1500,
     1600,
     1700,
     1800,
@@ -15,7 +30,7 @@ export const amounts = [
 ]
 
 export const userList = {
-    s : {
+    s: {
         name: "Nicolas Patrick",
     },
 }
