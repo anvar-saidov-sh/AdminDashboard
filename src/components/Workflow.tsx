@@ -25,6 +25,9 @@ function Workflow() {
                     <div>Chart 3</div>
                     <div>Chart 2</div>
                 </div>
+                <div className='w-full flex flex-wrap'>
+                    
+                </div>
             </div>
         </>
     )
