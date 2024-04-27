@@ -14,6 +14,11 @@ export const userss = {
         199
     ]
 }
+export const products = [
+    { name: 'Nicolas Patrick', amounts: 150,id: 1 },
+    { name: 'Cordell Edwards', amounts: 100,id: 2 },
+    { name: 'Derrick Spencer', amounts: 200,id: 3 },
+];
 
 export const users = [
     "Nicolas Patrick",
