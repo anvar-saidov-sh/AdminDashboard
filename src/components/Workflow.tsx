@@ -21,9 +21,12 @@ function Workflow() {
                     }
                 </div>
                 <div className='w-full flex flex-wrap justify-between px-5 py-4'>
-                    <div>Chart 1</div>
-                    <div>Chart 3</div>
-                    <div>Chart 2</div>
+                    <div className='w-[25%] flex justify-between'>
+                        <div className='flex flex-col justify-between'>
+                            <p>Product sold</p>
+                            <h2 className=''>25.2K</h2>
+                        </div>
+                    </div>
                 </div>
                 <div className='w-full flex flex-wrap'>
                     <div>Bar chart</div>
