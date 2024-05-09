@@ -1,4 +1,4 @@
-import { EllipsisVertical } from 'lucide-react'
+import { EllipsisVertical, TrendingUp } from 'lucide-react'
 import react from '../assets/react.svg'
 import {products} from '../db'
 function Workflow() {
@@ -21,10 +21,11 @@ function Workflow() {
                     }
                 </div>
                 <div className='w-full flex flex-wrap justify-between px-5 py-4'>
-                    <div className='w-[25%] flex justify-between'>
-                        <div className='flex flex-col justify-between'>
+                    <div className='w-[25%] flex justify-between border-[2px] border-slate-300 p-[20px] rounded-[10px]'>
+                        <div className='flex flex-col justify-between  '>
                             <p>Product sold</p>
-                            <h2 className=''>25.2K</h2>
+                            <h2 className='text-[30px] font-bold'>25.2K</h2>
+                            <p className='flex gap-2'>+15%<TrendingUp className='text-green-500'/></p>
                         </div>
                     </div>
                 </div>
